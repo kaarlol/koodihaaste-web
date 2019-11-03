@@ -48,7 +48,7 @@ export default class Hero extends React.Component {
       case 4:
         buttonText = "Tutki sanoja";
         processText =
-          "Näyttää jo paremmalta! Mutta vielä ei olla ihan perillä. Selvitetään seuraavaksi paljonko lauseet sisältävät suomenkielen yleisimpiä sanoja.";
+          "Parempi! Mutta vielä ei olla ihan perillä. Selvitetään seuraavaksi paljonko lauseet sisältävät suomenkielen yleisimpiä sanoja.";
           button = <button type="button" onClick={this.nextStep}>{buttonText}</button>;
         break;
     case 5:
@@ -66,7 +66,7 @@ export default class Hero extends React.Component {
       <div className="hero">
         <img src={Logo} alt="Koodihaaste logo" />
         <p className="processText">
-          Tässä ratakaisuni Solidabiksen koodihaasteeseen. Toteutus on jaettu
+          Tässä ratkaisuni Solidabiksen koodihaasteeseen. Toteutus on jaettu
           kahteen osaan:{" "}
           <a
             href="https://github.com/kaarlol/koodihaaste-api"
